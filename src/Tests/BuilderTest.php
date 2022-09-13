@@ -14,16 +14,22 @@ final class BuilderTest extends TestCase
     public function testItCanProduceBMWCar()
     {
         $builder = new BMWCarBuilder();
+
         $carProducer = new CarProducer($builder);
+
         $myCar = $carProducer->produceCar();
+
         $this->assertInstanceOf(BMWCar::class, $myCar);
     }
 
     public function testItCanProduceBenzCar()
     {
         $builder = new BenzCarBuilder();
+
         $carProducer = new CarProducer($builder);
+
         $myCar = $carProducer->produceCar();
+
         $this->assertInstanceOf(BenzCar::class, $myCar);
     }
 }
