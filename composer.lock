@@ -4,8 +4,34 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d459112f0a6b9394458e58ece25afa31",
-    "packages": [],
+    "content-hash": "2fdffde5824e7fae52257902de7cf414",
+    "packages": [
+        {
+            "name": "osama/libs",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "./src/Libs",
+                "reference": "3c15ca9cb9aeb579926d3b35c7a3a0874a2ca98e"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Libs\\": "src/"
+                }
+            },
+            "authors": [
+                {
+                    "name": "404Exist",
+                    "email": "osamasaad1237@gmail.com"
+                }
+            ],
+            "description": "test libs for adapter",
+            "transport-options": {
+                "relative": true
+            }
+        }
+    ],
     "packages-dev": [
         {
             "name": "doctrine/instantiator",
@@ -1736,7 +1762,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "osama/libs": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],

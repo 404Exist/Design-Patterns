@@ -14,7 +14,16 @@
             "email": "osamasaad1237@gmail.com"
         }
     ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "./src/Libs"
+        }
+    ],
     "require-dev": {
         "phpunit/phpunit": "^9.5"
+    },
+    "require": {
+        "osama/libs": "*@dev"
     }
 }

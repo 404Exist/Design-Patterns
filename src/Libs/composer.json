@@ -1,0 +1,17 @@
+{
+    "name": "osama/libs",
+    "description": "test libs for adapter",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Libs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "404Exist",
+            "email": "osamasaad1237@gmail.com"
+        }
+    ],
+    "require": {}
+}
